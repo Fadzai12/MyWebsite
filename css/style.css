@@ -1,0 +1,130 @@
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+	color: black;
+}
+
+#about {
+    top: 20px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#blog {
+    top: 80px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#projects {
+    top: 140px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#contact {
+    top: 200px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+
+body {
+    background-color: #cccccc;
+}
+
+
+#footer {
+
+    padding: 15px;
+}
+
+#desc {
+	text-align: center;
+	font: 100px;
+	margin: 0 auto;
+	color: white;
+	font-size: 20px;
+}
+
+#desc2 {
+	text-align: center;
+	font: 100px;
+	margin: 0 auto;
+	color: white;
+}
+
+body {margin:25px;}
+
+
+
+h1 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 120px;
+	text-align: center;
+	color: white;
+}
+
+h2 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 200px;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    max-width: 360px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+	background-color: white;
+	color: black
+}
+
+
+main {
+  max-width: 1500px;
+  margin: 0 auto;
+  background: white;
+  text-align: center;
+  padding: 2px;
+}
