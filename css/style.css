@@ -1,3 +1,5 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+
 #mySidenav a {
     position: absolute;
     left: -80px;
@@ -50,10 +52,16 @@ body {
     background-color: #cccccc;
 }
 
-
-#footer {
-
-    padding: 15px;
+/* Footer */
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #787878;
+   color: black;
+   text-align: center;
+   height: 7%;
 }
 
 #desc {
@@ -74,7 +82,7 @@ body {
 body {margin:25px;}
 
 
-
+/* Texts */
 h1 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 120px;
@@ -92,6 +100,13 @@ h2 {
 h3 {
 	font-family: 'Dancing Script', cursive;
 	font-size: 50px;
+	text-align: center;
+	color: white;
+}
+
+h4 {
+	font-family: 'Dancing Script', cursive;
+	font-size: 20px;
 	text-align: center;
 	color: white;
 }
@@ -128,3 +143,131 @@ main {
   text-align: center;
   padding: 2px;
 }
+/* Menu Bar*/
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+/* Back button */
+.button {
+  border-radius: 4px;
+  background-color: #B0B0B0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  size: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+.mySlides {display:none}
+
+/*
+  - this applies to any screen sizes under 500px
+  - if you leave the width off, sections will automatically fill the full page width
+  - no margins and little or no padding
+*/
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+  }
+@media screen and (min-width: 500px) {
+	body {
+	  background: #black;
+	   
+  }
+  section {
+	   width: 44%;
+	   display: inline-block;
+  }
+  /* 
+    - applies to screens larger than 499px (unless specifically overwritten these styles will also apply to screens larger than 999px)
+    - add any hover states here
+    - increase font sizes
+    - add margins and padding to space things out
+    - decrease width of sections
+    - add `display: inline-block;` so that sections will float next to each other
+  */
+}
+/* END FIRST BREAKPOINT */
+
+/* SECOND BREAKPOINT (MEDIUM SIZE) */
+  }
+@media screen and (min-width: 768px) {
+	body {
+	  background: #white;
+	   
+  }
+  section {
+	   width: 44%;
+	   display: inline-block;
+  }
+  /* 
+    - applies to screens larger than 766px (unless specifically overwritten these styles will also apply to screens larger than 999px)
+    - add any hover states here
+    - increase font sizes
+    - add margins and padding to space things out
+    - decrease width of sections
+    - add `display: inline-block;` so that sections will float next to each other
+  */
+}
+/* END SECOND BREAKPOINT */
+
+
+/* THIRD BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+	body {
+		background: #black;
+	}
+	section {
+	   width: 22%;
+	   display: inline-block;
+  }
+  /*
+    - applies to screens larger than 999px only
+    - add a max-width to your main section
+    - further decrease size of sections
+    - increase size of headings and global fonts
+  */
+}
+/* END THIRD BREAKPOINT */
+
