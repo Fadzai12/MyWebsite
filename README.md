@@ -16,20 +16,10 @@ https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_social_media_butto
 https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_animated
 
 
-On the 02/12/2017
 
-I had difficulty with commiting:
-Initial commit
-
-Changes to be committed:
-  (use "git rm --cached <file>..." to unstage)
-
-        new file:   Thumbs.db
-        new file:   mywebsite
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-  (commit or discard the untracked or modified content in submodules)
-
-        modified:   mywebsite (modified content, untracked content)
+Testing:
+http://responsivedesignchecker.com/checker.php?url=https%3A%2F%2Ffadzai12.github.io%2Fmywebsite%2F&width=1400&height=700
+http://republik-media.com/insights/3-ways-check-website-responsive/
+Tested on: Dec 2, 2017 at 9:13 PM
+Page is mobile-friendly
+This page is easy to use on a mobile device
