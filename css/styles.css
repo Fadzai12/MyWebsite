@@ -1,0 +1,195 @@
+/* GLOBAL AND MOBILE STYLES FIRST */
+
+body {
+  margin:0;
+  padding:0;
+  background: #ccc;
+  color: #000;
+  text-align: center;
+  line-height: 30px;
+}
+header {
+  background: #ccc;
+  color: #444;
+}
+nav {
+  background: white;
+  display: none;
+}
+nav a {
+  padding: 1em;
+  display: block;
+}
+#menu {
+  padding: 1em;
+  background: #fff;
+  display: block;
+  text-align: left;
+}
+.show-menu {
+  display: block;
+  text-align: left;
+}
+
+.hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:#999;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+#mySidenav a:hover {
+    left: 0;
+	color: black;
+}
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+	color: black;
+}
+
+#about {
+    top: 20px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#blog {
+    top: 80px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#projects {
+    top: 140px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#contact {
+    top: 200px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+#aboutme {
+    top: 200px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+#education {
+    top: 200px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+#experience {
+    top: 200px;
+    background-color: white;
+	font-family: 'Poppins', sans-serif;
+}
+
+#myimg {
+	width= 100%;
+	height: 300px;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.5em;
+  margin: 0;
+  padding: 1em;
+}
+main {
+  background: #eee;
+  padding: .5em;
+}
+section {
+  background: #888;
+}
+
+
+/* FIRST BREAKPOINT (MEDIUM SIZE) */
+@media screen and (min-width: 500px) {
+  header {
+    background: #444;
+    color: #ccc;
+  }
+  nav a {
+    width: 44%;
+    display: inline-block;
+  }
+  nav a:hover {
+    background: #777;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  section {
+    width: 44%;
+    margin: 2%;
+    display: inline-block;
+    background: #444;
+    color: #999;
+  }
+  section:hover {
+    background: #666;
+  }
+}
+/* END FIRST BREAKPOINT */
+
+
+/* SECOND BREAKPOINT (DESKTOP SIZE) */
+@media screen and (min-width: 1000px) {
+  header {
+    background: #222;
+    color: #ccc;
+  }
+  nav {
+    display: block;
+  }
+  nav a {
+    line-height: 3em;
+    width: inherit;
+  }
+  #menu {
+    display: none;
+  }
+  main {
+    max-width: 1000px;
+  }
+  section {
+    width: 22%;
+    margin: 1em 1% 1em 1%;
+    background: #222;
+    border-color: #666;
+    font-size: 1.5em;
+  }
+}
+/* END SECOND BREAKPOINT */
