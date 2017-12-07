@@ -130,6 +130,18 @@ section {
   background: #888;
 }
 
+/* Footer */
+.footer {
+   position: auto;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #787878;
+   color: black;
+   text-align: center;
+   height: 7%;
+}
+
 
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
 @media screen and (min-width: 500px) {
