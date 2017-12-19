@@ -60,6 +60,8 @@ https://www.w3schools.com/css/css_image_gallery.asp
 https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery
 https://fonts.google.com/
 https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive
+https://www.w3schools.com/howto/howto_css_contact_form.asp
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_contact_form
 
 Pictures:
 https://www.google.co.uk/search?q=organisation&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjTgISBlZfYAhUrCcAKHXa2BCMQ_AUICigB&biw=1706&bih=820#imgrc=tS_2snvaN00OCM:

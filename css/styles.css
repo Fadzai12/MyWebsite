@@ -20,6 +20,7 @@ nav a {
   padding: 1em;
   display: block;
 }
+/* MENU */
 #menu {
   padding: 1em;
   background: #fff;
@@ -107,12 +108,12 @@ nav a {
     background-color: white;
 	font-family: 'Poppins', sans-serif;
 }
-
+/* IMAGE */
 #myimg {
 	width= 100%;
 	height: 300px;
 }
-
+/* GENERAL */
 a {
   color: #000;
   text-decoration: none;
@@ -130,6 +131,7 @@ section {
   background: #888;
 }
 
+/* MAP */
 #map{
 	width: 100%;
 	height: 400px;
