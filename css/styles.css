@@ -1,58 +1,56 @@
 /* GLOBAL AND MOBILE STYLES FIRST */
 
 body {
-  margin:0;
-  padding:0;
-  background: #ccc;
-  color: #000;
-  text-align: center;
-  line-height: 30px;
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    color: #000;
+    text-align: center;
+    line-height: 30px;
 }
 header {
-  background: #ccc;
-  color: #444;
+    background: #ccc;
+    color: #444;
 }
 nav {
-  background: white;
-  display: none;
+    background: white;
+    display: none;
 }
 nav a {
-  padding: 1em;
-  display: block;
+    padding: 1em;
+    display: block;
 }
 /* MENU */
+
 #menu {
-  padding: 1em;
-  background: #fff;
-  display: block;
-  text-align: left;
+    padding: 1em;
+    background: #fff;
+    display: block;
+    text-align: left;
 }
 .show-menu {
-  display: block;
-  text-align: left;
+    display: block;
+    text-align: left;
 }
-
-.hamburger{
-  background:none;
-  position:absolute;
-  top:0;
-  right:0;
-  line-height:45px;
-  padding:5px 15px 0px 15px;
-  color:#999;
-  border:0;
-  font-size:1.4em;
-  font-weight:bold;
-  cursor:pointer;
-  outline:none;
-  z-index:10000000000000;
+.hamburger {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0px 15px;
+    color: #999;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
 }
-
 #mySidenav a:hover {
     left: 0;
-	color: black;
+    color: black;
 }
-
 #mySidenav a {
     position: absolute;
     left: -80px;
@@ -64,95 +62,107 @@ nav a {
     color: black;
     border-radius: 0 5px 5px 0;
 }
-
 #mySidenav a:hover {
     left: 0;
-	color: black;
+    color: black;
 }
-
 #about {
     top: 20px;
     background-color: white;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 #blog {
     top: 80px;
     background-color: white;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 #projects {
     top: 140px;
     background-color: white;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
-
 #contact {
     top: 200px;
     background-color: white;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #aboutme {
     top: 200px;
     background-color: white;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #education {
     top: 200px;
     background-color: white;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 #experience {
     top: 200px;
     background-color: white;
-	font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 /* IMAGE */
+
 #myimg {
-	width= 100%;
-	height: 300px;
+    width 100%;
+    height: 300px;
 }
 /* GENERAL */
+
 a {
-  color: #000;
-  text-decoration: none;
+    color: #000;
+    text-decoration: none;
 }
 h1 {
-  font-size: 1.5em;
-  margin: 0;
-  padding: 1em;
+    font-size: 1.5em;
+    margin: 0;
+    padding: 1em;
 }
 main {
-  background: #eee;
-  padding: .5em;
+    background: #eee;
+    padding: .5em;
 }
 section {
-  background: #888;
+    background: #888;
 }
-
 /* MAP */
-#map{
-	width: 100%;
-	height: 400px;
-}
 
+#map {
+    width: 100%;
+    height: 400px;
+}
 /* FORM */
-
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
-    border: 1px solid #ccc; /* Gray border */
-    border-radius: 4px; /* Rounded borders */
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-	
-}
 
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    
+    padding: 12px;
+    /* Some padding */
+    
+    border: 1px solid #ccc;
+    /* Gray border */
+    
+    border-radius: 4px;
+    /* Rounded borders */
+    
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    
+    margin-top: 6px;
+    /* Add a top margin */
+    
+    margin-bottom: 16px;
+    /* Bottom margin */
+    
+    resize: vertical
+    /* Allow the user to vertically resize the textarea (not horizontally) */
+}
 /* Style the submit button with a specific background color etc */
+
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
@@ -161,162 +171,174 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
-
 /* When moving the mouse over the submit button, add a darker green color */
+
 input[type=submit]:hover {
     background-color: #45a049;
 }
-
 /* Add a background color and some padding around the form */
+
 .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
 }
-
 /* FOOTER */
-.footer {
-   position: auto;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #787878;
-   color: black;
-   text-align: center;
-   height: 7%;
-}
 
+.footer {
+    position: auto;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #787878;
+    color: black;
+    text-align: center;
+    height: 7%;
+}
 /* SLIDESHOW */
 
 @keyframes slidy {
-0% { left: 0%; }
-20% { left: 0%; }
-25% { left: -100%; }
-45% { left: -100%; }
-50% { left: -200%; }
-70% { left: -200%; }
-75% { left: -300%; }
-95% { left: -300%; }
-100% { left: -300%; }
+    0% {
+        left: 0%;
+    }
+    20% {
+        left: 0%;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -300%;
+    }
 }
-
-div#slider { overflow: hidden; }
-div#slider figure img { width: 20%; float: left; }
-div#slider figure { 
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite; 
+div#slider {
+    overflow: hidden;
+}
+div#slider figure img {
+    width: 20%;
+    float: left;
+}
+div#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite;
 }
 div.gallery {
     border: 1px solid #ccc;
 }
-
 div.gallery:hover {
     border: 1px solid #777;
 }
-
 div.gallery img {
     width: 100%;
     height: auto;
 }
-
 div.desc {
     padding: 15px;
     text-align: center;
 }
-
 * {
     box-sizing: border-box;
 }
-
 .responsive {
     padding: 0 6px;
     float: left;
     width: 24.99999%;
 }
-
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 700px) {
     .responsive {
         width: 49.99999%;
         margin: 6px 0;
     }
 }
-
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 500px) {
     .responsive {
         width: 100%;
     }
 }
-
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
-
 /* FIRST BREAKPOINT (MEDIUM SIZE) */
+
 @media screen and (min-width: 500px) {
-  header {
-    background: #444;
-    color: #ccc;
-  }
-  nav a {
-    width: 44%;
-    display: inline-block;
-  }
-  nav a:hover {
-    background: #777;
-  }
-  h1 {
-    font-size: 2em;
-  }
-  main {
-    width: 90%;
-    margin: 0 auto;
-  }
-  section {
-    width: 44%;
-    margin: 2%;
-    display: inline-block;
-    background: #444;
-    color: #999;
-  }
-  section:hover {
-    background: #666;
-  }
+    header {
+        background: #444;
+        color: #ccc;
+    }
+    nav a {
+        width: 44%;
+        display: inline-block;
+    }
+    nav a:hover {
+        background: #777;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    main {
+        width: 90%;
+        margin: 0 auto;
+    }
+    section {
+        width: 44%;
+        margin: 2%;
+        display: inline-block;
+        background: #444;
+        color: #999;
+    }
+    section:hover {
+        background: #666;
+    }
 }
 /* END FIRST BREAKPOINT */
-
-
 /* SECOND BREAKPOINT (DESKTOP SIZE) */
+
 @media screen and (min-width: 1000px) {
-  header {
-    background: #222;
-    color: #ccc;
-  }
-  nav {
-    display: block;
-  }
-  nav a {
-    line-height: 3em;
-    width: inherit;
-  }
-  #menu {
-    display: none;
-  }
-  main {
-    max-width: 1000px;
-  }
-  section {
-    width: 22%;
-    margin: 1em 1% 1em 1%;
-    background: #222;
-    border-color: #666;
-    font-size: 1.5em;
-  }
+    header {
+        background: #222;
+        color: #ccc;
+    }
+    nav {
+        display: block;
+    }
+    nav a {
+        line-height: 3em;
+        width: inherit;
+    }
+    #menu {
+        display: none;
+    }
+    main {
+        max-width: 1000px;
+    }
+    section {
+        width: 22%;
+        margin: 1em 1% 1em 1%;
+        background: #222;
+        border-color: #666;
+        font-size: 1.5em;
+    }
 }
 /* END SECOND BREAKPOINT */
